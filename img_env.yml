@@ -1,0 +1,25 @@
+name: img_env
+channels:
+  - conda-forge
+  - flyem-forge
+dependencies:
+  - python=3.10.8
+  - networkx
+  - scikit-learn 
+  - graph-tool 
+  - pygobject 
+  - cairo 
+  - gtk3
+  - matplotlib
+  - jupyterlab
+  # - pytorch
+  # - torchvision
+  # - torchaudio
+  - pip
+  - pip:
+    - topsbm
+    - google-cloud-vision
+    - imagehash
+    - transformers
+    - timm
+
